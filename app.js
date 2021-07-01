@@ -16,13 +16,11 @@ var favSport = prompt("what is your favorit sport KickBoxing or Running?")
 
 if (favSport === "Running") {
   var times = Number (prompt("How many times do you exercise in a week?"))
-
   for (var i = 0; i < times; i++) {
     document.write("<div>" + "<h3>" + favSport + "</h3>" + "<img src='https://image.shutterstock.com/image-photo/young-woman-runner-running-on-260nw-359568020.jpg'alt='Running'" + "</div>")
   }
-
 }
-else if (favSport === "KickBoxing") {
+else if (favSport ==="KickBoxing") {
   var times = prompt("How many times do you exercise in a week?")
 
 
@@ -30,4 +28,10 @@ else if (favSport === "KickBoxing") {
     document.write("<div>" + "<h3>" + favSport + "</h3>" + "<img src='https://image.shutterstock.com/image-photo/asian-girl-kick-sand-bag-600w-1524514220.jpg'alt='KickBoxing'" + "</div>")
   }
 }
-
+var username=
+alert('welcome to the best place for your health')
+var weight = prompt("enter weight in Kg")
+if('60'){
+        alert('you need to gain weight')
+    }
+    else{('your healthy')}

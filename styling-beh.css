@@ -1,0 +1,24 @@
+p{
+  color: rgb(135, 241, 153)
+}
+#lor{
+  color: rgba(248, 152, 166, 0.993)
+}
+.class{
+  color: orchid
+}
+li{
+  display: inline-block
+}
+ul{
+  float:right;
+}
+h3{
+  float: right;
+}
+#back {
+  background-color:rgba(253, 127, 148, 0.089);
+}
+#lor{
+  background-color:rgba(101, 228, 101, 0.178)
+}

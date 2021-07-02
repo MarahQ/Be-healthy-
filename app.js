@@ -8,7 +8,7 @@ else if (weight <= 75) {
   alert('your healthy')
 }
 else alert('you need to lose weight')
-var age = prompt("your age please")
+var age = prompt("your age please (above 18 only)")
 while (age < 18) {
   age = prompt("please enter the right age")
 }

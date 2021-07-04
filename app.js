@@ -8,11 +8,11 @@ else if (weight <= 75) {
   alert('your healthy')
 }
 else alert('you need to lose weight')
-var age = prompt("your age please")
+var age = prompt("your age please (above 18 only)")
 while (age < 18) {
   age = prompt("please enter the right age")
 }
-
+function sport(){
 var favSport = prompt("what is your favorit sport KickBoxing or Running?")
 
 if (favSport === "Running") {
@@ -29,3 +29,5 @@ else if (favSport ==="KickBoxing") {
     document.write("<div>" + "<h3>" + favSport + "</h3>" + "<img src='https://image.shutterstock.com/image-photo/asian-girl-kick-sand-bag-600w-1524514220.jpg'alt='KickBoxing'" + "</div>")
   }
 }
+}
+sport();
